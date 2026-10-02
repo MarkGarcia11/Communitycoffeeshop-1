@@ -1,0 +1,29 @@
+@theme {
+  --color-brand: #1C584F;
+  --color-brand-white: #FFFFFF;
+  --color-brand-deep: color-mix(in srgb, var(--color-brand) 85%, black);
+  --color-brand-soft: color-mix(in srgb, var(--color-brand) 4%, var(--color-brand-white));
+  --color-brand-mist: color-mix(in srgb, var(--color-brand) 9%, var(--color-brand-white));
+  --color-brand-line: color-mix(in srgb, var(--color-brand) 20%, var(--color-brand-white));
+  --color-brand-muted: color-mix(in srgb, var(--color-brand) 85%, var(--color-brand-white));
+
+  --color-stone-50: color-mix(in srgb, var(--color-brand) 3%, white);
+  --color-stone-100: color-mix(in srgb, var(--color-brand) 6%, white);
+  --color-stone-150: color-mix(in srgb, var(--color-brand) 10%, white);
+  --color-stone-200: color-mix(in srgb, var(--color-brand) 15%, white);
+  --color-stone-300: color-mix(in srgb, var(--color-brand) 25%, white);
+  --color-stone-400: color-mix(in srgb, var(--color-brand) 85%, white);
+  --color-stone-500: color-mix(in srgb, var(--color-brand) 90%, white);
+  --color-stone-600: color-mix(in srgb, var(--color-brand) 95%, white);
+  --color-stone-650: var(--color-brand);
+  --color-stone-700: var(--color-brand);
+  --color-stone-800: var(--color-brand-deep);
+  --color-stone-850: var(--color-brand-deep);
+  --color-stone-855: var(--color-brand-deep);
+  --color-stone-856: var(--color-brand-deep);
+  --color-stone-900: var(--color-brand-deep);
+
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Manrope", Arial, sans-serif;
+  --font-hebrew: "Frank Ruhl Libre", Georgia, serif;
+}
